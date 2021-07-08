@@ -1,0 +1,27 @@
+:root {
+  --desaturated-dark-cyan: hsl(180, 29%, 50%);
+  --light-grayish-cyan: hsl(180, 52%, 96%);
+  --light-grayish-cyan: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark: hsl(180, 14%, 20%);
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding:0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1 rem = 10px/16px= 62.5%
+}
+
+body {
+  font-size: 15px;
+  background: #f2f2f2;
+  font-family: 'Spartan', sans-serif;
+}

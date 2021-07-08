@@ -1,0 +1,140 @@
+.job-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  &--left {
+    border-left: 4px solid #5ca5a5;
+  }
+
+  &__cover {
+    margin-right: 2.4rem;
+  }
+
+  &__description {
+    margin-right: auto;
+  }
+  &__description-top {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+    span {
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+  &__company-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5ca5a5;
+  }
+  &__badge {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.0846154px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 4px 8px;
+    padding-top: 6px;
+    border-radius: 12px;
+    display: inline-block;
+    &--new {
+      background: #5ca5a5;
+    }
+    &--featured {
+      background: #2b3939;
+    }
+  }
+
+  &__description-bottom {
+    display: flex;
+
+    span {
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+  &__published {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #7c8f8f;
+  }
+  &__shift {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #7c8f8f;
+  }
+
+  &__location {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #7c8f8f;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2b3939;
+    margin-bottom: 8px;
+  }
+  &__tags {
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  &__tag {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5ca5a5;
+    background: rgba(92, 165, 165, 0.1);
+    border-radius: 4px;
+    padding: 8px;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+}
+
+#btn {
+  color: #63baba;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.1px;
+  text-decoration-line: underline;
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
+  cursor: pointer;
+}
+
+.close {
+  cursor: pointer;
+  margin-left: 0.7rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
