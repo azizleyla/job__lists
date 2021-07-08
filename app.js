@@ -241,19 +241,28 @@ function showSelectedTags(selectedTags) {
 function filterJobAnouncements(selectedTags, anouncements) {
   const newAnouncements = []
 
-  anouncements.forEach(anouncement => {
-    selectedTags.forEach(selectedTag => {
-      if (anouncement.tags.includes(selectedTag)) {
-        if (newAnouncements.find(newAnouncement => newAnouncement.id === anouncement.id)) {
-          return
-        } {
-          newAnouncements.push(anouncement)
-        }
+  // selectegTags
+  // anouncements
+  // anouncement.tags
 
-      }
+  selectedTags.forEach(tag => {
+
+  })
+
+
+
+  anouncements.forEach(anouncement => {
+    anouncement.tags.every((tag)=>{
+      
+    //  return selectedTags.forEach(selectedTag=>{
+    //   return 
+    //   })
     })
 
   })
+
+
+
   console.log(newAnouncements);
   return newAnouncements
 
